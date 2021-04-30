@@ -32,10 +32,10 @@ export let fleet = [
     latLng: '40.77327 -73.968875',
   },
   {
-    license: 'TY9876',
+    license: 'SM9876',
     type: 'car',
-    make: 'Toyota',
-    model: 'Yaris',
+    make: 'Strom Motors',
+    model: 'R3',
     miles: '20900',
     latLng: '40.75614 -73.946243',
   },

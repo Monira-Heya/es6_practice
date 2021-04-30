@@ -49,4 +49,12 @@ export class FleetDataService {
     return this.cars.sort( ({license: lic1}, {license: lic2}) => lic1 < lic2 ? -1 : (lic1 > lic2 ? 1 : 0) );
   }
   
+  getCarsByQuery(q) {
+    return this.cars.filter(car => car.license.indexOf(q) !== -1);
+  }
+  
+  getDronesByQuery(q) {
+    return this.drones.filter(drone => drone.license.indexOf(q) !== -1);
+  }
+  
 }
